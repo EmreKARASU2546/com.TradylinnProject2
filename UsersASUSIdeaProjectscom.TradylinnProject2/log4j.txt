@@ -1,9 +1,14 @@
-2022-06-30 16:57:19 INFO  WebDriverManager:1197 - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
-2022-06-30 16:57:19 INFO  WebDriverManager:1252 - Exporting webdriver.chrome.driver as C:\Users\ASUS\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-2022-06-30 16:57:21 INFO  Utils:112 - [TestNG] Running:
+2022-06-30 16:52:41 INFO  WebDriverManager:1197 - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-06-30 16:52:41 INFO  WebDriverManager:1252 - Exporting webdriver.chrome.driver as C:\Users\ASUS\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-06-30 16:52:43 INFO  Utils:112 - [TestNG] Running:
   C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
 
-2022-06-30 16:57:38 WARN  WebSocketHandler:142 - onError
+2022-06-30 16:55:46 INFO  WebDriverManager:1197 - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-06-30 16:55:46 INFO  WebDriverManager:1252 - Exporting webdriver.chrome.driver as C:\Users\ASUS\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-06-30 16:55:48 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
+
+2022-06-30 16:56:04 WARN  WebSocketHandler:142 - onError
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
@@ -19,7 +24,7 @@ java.net.SocketException: Connection reset
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2022-06-30 16:57:39 ERROR runtime:60 - Error executing FreeMarker template
+2022-06-30 16:56:04 ERROR runtime:60 - Error executing FreeMarker template
 FreeMarker template error:
 Template inclusion failed (for parameter value "partials/exceptıon.ftl"):
 Template not found for name "spark/partials/exceptıon.ftl".
@@ -86,53 +91,3 @@ The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoa
 	at freemarker.core.Environment.getTemplateForInclusion(Environment.java:2883)
 	at freemarker.core.Include.accept(Include.java:162)
 	... 46 more
-2022-06-30 17:22:30 INFO  WebDriverManager:1197 - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
-2022-06-30 17:22:30 INFO  WebDriverManager:1252 - Exporting webdriver.chrome.driver as C:\Users\ASUS\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-2022-06-30 17:22:32 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
-
-2022-07-07 13:37:21 INFO  WebDriverManager:1197 - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
-2022-07-07 13:37:21 INFO  WebDriverManager:1252 - Exporting webdriver.chrome.driver as C:\Users\ASUS\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-2022-07-07 13:37:23 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
-
-2022-07-07 13:39:02 INFO  WebDriverManager:1197 - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
-2022-07-07 13:39:02 INFO  WebDriverManager:1252 - Exporting webdriver.chrome.driver as C:\Users\ASUS\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-2022-07-07 13:39:04 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
-
-2022-07-07 13:40:54 INFO  WebDriverManager:1197 - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
-2022-07-07 13:40:54 INFO  WebDriverManager:1252 - Exporting webdriver.chrome.driver as C:\Users\ASUS\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-2022-07-07 13:40:56 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
-
-2022-07-07 13:42:58 INFO  WebDriverManager:1197 - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
-2022-07-07 13:42:58 INFO  WebDriverManager:1252 - Exporting webdriver.chrome.driver as C:\Users\ASUS\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-2022-07-07 13:43:00 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
-
-2022-07-07 13:46:19 INFO  WebDriverManager:1197 - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
-2022-07-07 13:46:19 INFO  WebDriverManager:1252 - Exporting webdriver.chrome.driver as C:\Users\ASUS\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-2022-07-07 13:46:21 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
-
-2022-07-07 13:48:09 INFO  WebDriverManager:1197 - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
-2022-07-07 13:48:09 INFO  WebDriverManager:1252 - Exporting webdriver.chrome.driver as C:\Users\ASUS\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-2022-07-07 13:48:11 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
-
-2022-07-07 13:49:58 INFO  WebDriverManager:1197 - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
-2022-07-07 13:49:58 INFO  WebDriverManager:1252 - Exporting webdriver.chrome.driver as C:\Users\ASUS\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-2022-07-07 13:49:59 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
-
-2022-07-07 13:53:36 INFO  WebDriverManager:1197 - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
-2022-07-07 13:53:36 INFO  WebDriverManager:1252 - Exporting webdriver.chrome.driver as C:\Users\ASUS\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-2022-07-07 13:53:37 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
-
-2022-07-07 13:58:02 INFO  WebDriverManager:1197 - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
-2022-07-07 13:58:02 INFO  WebDriverManager:1252 - Exporting webdriver.chrome.driver as C:\Users\ASUS\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-2022-07-07 13:58:04 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
-

@@ -362,10 +362,10 @@ public class  TradylinnPage{
     @FindBy(xpath = "(//span[@class='text'])[4]")
     public   WebElement urun;
 
-    @FindBy(xpath = "<a href=\"(//span[@class='text'])[19]")
+    @FindBy(xpath = "//a[@id='add_new_product_dashboard']")
     public   WebElement yeniEkle;
 
-    @FindBy(xpath = "//input[@name='manage_stock']")
+    @FindBy(xpath = "(//input[@type='checkbox'])[92]")
     public   WebElement manageStockTik;
 
     @FindBy(xpath = "//input[@name='stock_qty']")

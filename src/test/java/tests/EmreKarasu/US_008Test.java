@@ -20,17 +20,16 @@ public class US_008Test {
         ReusableMethods.bekle(5);
 
         JavascriptExecutor js1 = (JavascriptExecutor) Driver.getDriver(); //sayfayı asagı kaydır
-        js1.executeScript("window.scrollBy(0,250)");
+        js1.executeScript("window.scrollBy(0,600)");
 
         trd.urun.click();
-        trd.urun.clear();
         Thread.sleep(5000);
 
         trd.yeniEkle.click();
         Thread.sleep(5000);
 
         JavascriptExecutor js2 = (JavascriptExecutor) Driver.getDriver(); //sayfayı asagı kaydır
-        js2.executeScript("window.scrollBy(0,1100)");
+        js2.executeScript("window.scrollBy(0,1500)");
         trd.manageStockTik.click();
         Thread.sleep(5000);
 
